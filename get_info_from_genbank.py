@@ -23,7 +23,7 @@ num = 0
 pubnum = 0
 doinum = 0
 
-file = open('output_plant5.csv','w')    # make a file to which you can save your results
+file = open('output_plant.csv','w')    # make a file to which you can save your results
 file.writelines("cn_number"+"\t"+"GI"+"\t"+"product"+"\t"+"definition"+"\t"+"taxon_number"+"\t"+"taxon"+"\t"+"length"+"\t"+"type"+"\t"+"submit_date"+"\t"+"paper_title"+"\t"+"pubmed"+"\t"+"DOI"+"\t"+"Journal"+"\t"+"Country"+"\t"+"LAT"+"\t"+"LON"+"\n")
 
 for i in range(int(count/10000)+1):
